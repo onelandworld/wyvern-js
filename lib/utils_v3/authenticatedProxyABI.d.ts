@@ -1,11 +1,20 @@
-export declare const staticABI: ({
+export declare const authenticatedProxyABI: ({
+    anonymous: boolean;
     inputs: {
+        indexed: boolean;
         internalType: string;
         name: string;
         type: string;
     }[];
+    name: string;
+    type: string;
+    stateMutability?: undefined;
+    outputs?: undefined;
+} | {
     stateMutability: string;
     type: string;
+    anonymous?: undefined;
+    inputs?: undefined;
     name?: undefined;
     outputs?: undefined;
 } | {
@@ -22,4 +31,5 @@ export declare const staticABI: ({
     }[];
     stateMutability: string;
     type: string;
+    anonymous?: undefined;
 })[];

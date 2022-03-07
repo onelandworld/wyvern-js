@@ -1,4 +1,4 @@
-export const atomicizerABI = [
+export const staticMarketABI = [
     {
         'inputs': [],
         'stateMutability': 'nonpayable',

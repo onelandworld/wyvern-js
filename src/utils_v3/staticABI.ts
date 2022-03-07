@@ -1,4 +1,4 @@
-export const atomicizerABI = [
+export const staticABI = [
     {
         'inputs': [
             {

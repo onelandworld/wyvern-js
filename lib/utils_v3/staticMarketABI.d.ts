@@ -1,4 +1,4 @@
-export declare const atomicizerABI: ({
+export declare const staticMarketABI: ({
     inputs: never[];
     stateMutability: string;
     type: string;
