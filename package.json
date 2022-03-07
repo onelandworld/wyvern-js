@@ -8,7 +8,10 @@
     "lint": "scripts/lint.sh",
     "build": "scripts/build.sh",
     "abi_gen": "scripts/abi_gen.sh",
-    "const_gen": "node scripts/const_gen.js"
+    "const_gen": "node scripts/const_gen.js",
+    "build_v3": "scripts/build_v3.sh",
+    "abi_gen_v3": "scripts/abi_gen_v3.sh",
+    "const_gen_v3": "node scripts/const_gen_v3.js"
   },
   "repository": {
     "type": "git",
